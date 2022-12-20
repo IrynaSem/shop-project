@@ -238,3 +238,174 @@ span {
     font-size: 40px;
     font-weight: bold;
 }
+
+
+.sort {
+    margin-top: 10px;
+}
+
+.menu-sort>li {
+    width: 100%;
+    background-color: rgba(202, 219, 237, 75%);
+}
+
+.menu-sort>li a:hover {
+    background-color: rgb(44 113 184);
+    color: white;
+}
+
+.menu-sort>li {
+    position: relative;
+}
+
+.menu-sort a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    text-decoration: none;
+    font-size: 21px;
+    color: rgb(44 113 184);
+}
+
+.sub-menu-sort {
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgb(44, 113, 184);
+    min-width: 100%;
+    z-index: 1;
+}
+
+.sub-menu-sort a {
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.menu-sort>li:hover .sub-menu-sort {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-menu-sort>li a:hover {
+    background-color: white;
+    color: rgb(44 113 184);
+}
+
+.menu-sort>li:hover>a {
+    background-color: rgb(44 113 184);
+    color: white;
+}
+
+.product {
+    height: 650px;
+    border: solid 1px rgb(202, 219, 237);
+    margin-bottom: 30px;
+}
+
+.product-img {
+    background-color: rgb(202, 219, 237);
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.zoom {
+    width: 30px;
+    height: 30px;
+    border: solid 1px rgb(44 113 184);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(images/icon\ 16.png);
+}
+
+.like {
+    width: 30px;
+    height: 30px;
+    border: solid 1px rgb(44 113 184);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-image: url(images/icon14.png);
+}
+
+.zoom:hover {
+    background-color: rgb(44 113 184);
+}
+
+.like:hover {
+    background-color: rgb(44 113 184);
+}
+
+.product-title {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.product-description {
+    font-size: 21px;
+    color: white;
+    padding: 7px 5px 7px 15px;
+    line-height: 25px;
+}
+
+.product-features {
+    font-size: 21px;
+    color: white;
+    padding: 7px 5px 7px 15px;
+    line-height: 25px;
+}
+
+span {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.btn {
+    width: 210px;
+    height: 50px;
+    border: solid 1px white;
+    background-color: rgb(44 113 184);
+    margin: 10px 30px 10px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-add-to-cart {
+    text-align: left;
+    padding: 25px;
+    line-height: 1px;
+    background-image: url(images/icon15.png);
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    background-position-y: center;
+}
+
+.btn:hover {
+    background-color: rgba(202, 219, 237, 25%);
+}
