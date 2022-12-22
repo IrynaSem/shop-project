@@ -445,12 +445,21 @@ span {
     margin-bottom: 25px;
 }
 
-.inp-text {
+.input-text {
     color: white;
     font-size: 21px;
 
 }
 
-.input {
-    margin: 10px;
+
+.input-text::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: solid 1px red;
+}
+
+input[type="checkbox"] {
+    display: none;
 }
