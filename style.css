@@ -452,11 +452,11 @@ span {
 }
 
 
-.input-text::before {
+label::before {
     content: "";
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     border: solid 1px red;
 }
 
