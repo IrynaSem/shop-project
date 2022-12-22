@@ -448,16 +448,29 @@ span {
 .input-text {
     color: white;
     font-size: 21px;
+}
+
+label {
+    color: white;
+    font-size: 21px;
+    position: relative;
+    margin: 20px;
 
 }
 
+input[type="checkbox"]:checked+label::before {
+    background-color: white;
+}
 
 label::before {
     content: "";
     display: block;
-    width: 14px;
-    height: 14px;
-    border: solid 1px red;
+    width: 10px;
+    height: 10px;
+    border: solid 1px white;
+    position: absolute;
+    top: 7px;
+
 }
 
 input[type="checkbox"] {
