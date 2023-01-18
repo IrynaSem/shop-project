@@ -347,7 +347,8 @@ span {
     background-color: rgb(44 113 184);
 }
 
-.like:hover {
+.like:hover,
+.liked {
     background-color: rgb(44 113 184);
 }
 
@@ -475,4 +476,57 @@ label::before {
 
 input[type="checkbox"] {
     display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.modal-block {
+    width: 280px;
+    height: 240px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    margin: 100px auto;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-wrap .btn-close {
+    cursor: pointer;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field input {
+    width: 100%;
+    height: 30px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.slider-block>div {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 150px 0px;
 }
