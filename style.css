@@ -327,7 +327,7 @@ span {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-image: url(images/icon\ 16.png);
+    background-image: url(images/icon13.png);
 }
 
 .like {
@@ -340,16 +340,18 @@ span {
     position: absolute;
     top: 50px;
     right: 10px;
-    background-image: url(images/icon14.png);
+    background-image: url(images/icon12.png);
 }
 
 .zoom:hover {
     background-color: rgb(44 113 184);
+    background-image: url(images/icon\ 16.png);
 }
 
-.like:hover,
+/* .like:hover, */
 .liked {
     background-color: rgb(44 113 184);
+    background-image: url(images/icon14.png);
 }
 
 .product-title {
